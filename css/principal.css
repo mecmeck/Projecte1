@@ -1,0 +1,42 @@
+body{
+
+	background:#e1e5e8;
+}	
+
+.PaginaPrincipal{
+	position:absolute;
+	width:1024px;
+	left:50%;
+	margin-left: -512px;
+	top:5px;
+
+	background:#DDF0F3;
+
+	border: 1px solid #888888;
+	border-radius:3px;
+	box-shadow:0px 0px 10px #333333
+}
+
+.maps{
+	width:1004px;
+	height:200px;
+	left:10px;
+	bottom: 10px;
+	position:absolute;
+	border:1px solid black;
+	/*margin-top:-300px;*/
+	background:white;
+}
+
+.Identificacio{
+	background: white;
+	border: 1px solid #000000;
+	z-index: 10;
+	border-radius:10px;
+}
+
+.Dins_Identificacio{
+
+	border-radius:5px;
+
+}
