@@ -1,14 +1,28 @@
+$(document).ready(function(){
+    //init map
+    carregaMapes();
+    
+    
+});
 
-function CarregaMapes(){
+
+function carregaMapes(){
+/*
+    var latlng = new google.maps.LatLng(-34.397, 150.644);
+    var myOptions = {
+      zoom: 8,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("div_maps"), myOptions);*/
 
     var options = {
-        zoom: 2
-        , center: new google.maps.LatLng(45.39265, 8.17083)
+        zoom: 2,
+        center: new google.maps.LatLng(45.39265, 8.17083)
         , mapTypeId: google.maps.MapTypeId.HYBRID  
     };
-    
-	var map = new google.maps.Map(document.getElementById('Div_maps'), options);
-	
+   var map = new google.maps.Map(document.getElementById('div_maps'), options);
+	//var map = new google.maps.Map(document.getElementById("div_maps"), options);
 	/*new google.maps.event.addListener(map, 'dblclick', function(event) {
 
 		var position = event.latLng;
@@ -21,7 +35,7 @@ function CarregaMapes(){
 		new google.maps.Marker({
 			position: position
 			, map: map
-			, title: 'Pulsa aquí'
+			, title: 'Pulsa aqui'
 			, icon: 'http://gmaps-samples.googlecode.com/svn/trunk/markers/green/blank.png'
 			, cursor: 'default'
 			, draggable: false
@@ -38,25 +52,25 @@ function CarregaMapes(){
 		/*var marker = new google.maps.Marker({
 	    position: map.getCenter()
         , map: map
-        , title: 'Pulsa aquí'
+        , title: 'Pulsa aquï¿½'
         , icon: 'http://gmaps-samples.googlecode.com/svn/trunk/markers/red/blank.png'
         , cursor: 'default'
         , draggable: true
     });
 	
 	google.maps.event.addListener(marker, 'mouseup', function(event){
-        var position = event.latLng;
+        var position = event.latLng;
 
 
 
 	
 	alert(position);
 		
-    });*/
+ });*/
 	//}
 	
 	/*var popup = new google.maps.InfoWindow({
-        content: 'Aquí comença l´aventura!!' + "<BR>" + "<BR>" +' UN PETIT CANVI MARCA LA DIFERÈNCIA'
+        content: 'Aquï¿½ comenï¿½a lï¿½aventura!!' + "<BR>" + "<BR>" +' UN PETIT CANVI MARCA LA DIFERï¿½NCIA'
         , position: map.getCenter()
     });
 	
